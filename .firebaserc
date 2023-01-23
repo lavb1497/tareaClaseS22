@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "angular-clase-d7a8d": {
+      "hosting": {
+        "tareaClaseS22": [
+          "angular-clase-d7a8d"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "angular-clase-d7a8d"
+  }
+}

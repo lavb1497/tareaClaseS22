@@ -1,0 +1,26 @@
+<div class="container mt-4 d-flex justify-content-center">
+  <div class="row">
+    <div class="col">
+      <form [formGroup]="formRegister">
+        <div class="card p-4">
+          <h1 class="mt-2 p-3 text-center">Registrate</h1>
+          <div class="mb-3 p-1">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" placeholder="name@example.com" formControlName="email">
+          </div>
+          <div class="mb-3 p-1">
+            <label for="exampleFormControlInput1" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" placeholder="luis123456" formControlName="password">
+          </div>
+          <div class="mt-1 mb-1 text-center">
+            <button class="btn btn-primary" (click)="onSubmit()">Registrar</button>
+          </div>
+          <div class="mt-3 text-center">
+            <p>¿Ya estás registrado? <a href="">Inicia sesión aquí</a></p>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
